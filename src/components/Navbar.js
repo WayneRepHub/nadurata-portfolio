@@ -1,16 +1,13 @@
 import React, { useState } from "react";
 import "./NavbarStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-
-import Resume from "../assets/resume.pdf"
-
-import Logo from "../assets/logo.png"
+import Resume from "../assets/resume.pdf";
+import Logo from "../assets/logo.png";
 
 const Navbar = ({ home, about, projects, contact }) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
-  // State for handling background color change on scroll
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 100) {
@@ -21,18 +18,17 @@ const Navbar = ({ home, about, projects, contact }) => {
   };
   window.addEventListener("scroll", changeColor);
 
-  // Function to scroll to specific section
   const scrollToSection = (ref) => {
     window.scrollTo({
       top: ref.current.offsetTop,
       behavior: "smooth",
     });
-    setClick(false);  // Close menu on click
+    setClick(false); 
   };
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <div className="logo">
+      <div className="logo" onClick={() => scrollToSection(home)} style={{ cursor: "pointer" }}>
         <img className="logo-img" src={Logo} alt="Logo" />
         <h1>Wayne Nadurata: Portfolio</h1>
       </div>
