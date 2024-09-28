@@ -23,24 +23,24 @@ const Home = () => {
         contact={contactRef}
       />
 
-      {/* Home Section */}
+      {/* Home */}
       <section ref={homeRef} className="home-section">
         <Heroimg projectsRef={projectsRef} contactRef={contactRef} />
       </section>
 
-      {/* About Section */}
+      {/* About */}
       <section ref={aboutRef} className="about-section">
         <HeroImg2 heading="ABOUT" text="What you need to know about me." />
         <AboutContent />
       </section>
 
-      {/* Projects Section */}
+      {/* Projects */}
       <section ref={projectsRef} className="projects-section" >
         <HeroImg2 heading="PROJECTS" text="Some of my most recent works." />
         <Work />
       </section>
 
-      {/* Contact Section */}
+      {/* Contact */}
       <section ref={contactRef} className="contact-section" >
         <HeroImg2 heading="CONTACT ME" text="Let's talk!" />
         <Form />
