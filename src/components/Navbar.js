@@ -32,7 +32,7 @@ const Navbar = ({ home, about, projects, contact }) => {
     <div className={color ? "header header-bg" : "header"}>
       <h1>Wayne Nadurata: Portfolio</h1>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li style={{size:"1rem"}}>
+        <li style={{ size: "1rem" }}>
           <a href={Resume} download className="btn-light">Download Resume</a>
         </li>
         <li onClick={() => scrollToSection(home)}>Home</li>

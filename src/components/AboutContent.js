@@ -29,9 +29,6 @@ const AboutContent = () => {
                 <p><b>Software: </b>Apache Netbeans, Jupyter Notebook, R Studio, Android Studio, Visual Studio Code, GitHub and
                     Microsoft Excel, Wacom, Da Vinci Resolve Studios, Canva, FireAlpaca, Adobe Photoshop, ibisPaintX, Figma.</p>
                 <div className="buttonNav">
-                    <Link to="/contact">
-                        <button className="btn">Contact Me</button>
-                    </Link>
                     <a href={Resume} download>
                         <button className="btn-light">My Resume</button>
                     </a>

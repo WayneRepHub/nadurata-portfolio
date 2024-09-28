@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* Home Section */}
       <section ref={homeRef} className="home-section">
-        <Heroimg projectsRef={projectsRef} contactRef={contactRef}/>
+        <Heroimg projectsRef={projectsRef} contactRef={contactRef} />
       </section>
 
       {/* About Section */}

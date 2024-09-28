@@ -21,9 +21,9 @@
 
 .buttonNav {
     display: flex;
-    justify-content: center; 
-    gap: 0.5rem; 
-    margin-top: 1rem; 
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
 }
 
 .about .right {

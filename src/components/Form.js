@@ -48,7 +48,7 @@ export const Form = () => {
 
         {successMessage && (
           <div className="success-message" >
-            <p style={{color: "rgb(248,249,254)", textAlign: "center"}}>Message Sent! :))</p>
+            <p style={{ color: "rgb(248,249,254)", textAlign: "center" }}>Message Sent! :))</p>
           </div>
         )}
       </form>
