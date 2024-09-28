@@ -1,7 +1,7 @@
 {
   "name": "nadurata-portfolio",
   "version": "0.1.0",
-  "homepage": "https://waynerephub.github.io/nadurata-portfolio/",
+  "homepage": "https://github.com/WayneRepHub/nadurata-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

@@ -9,7 +9,6 @@ function App() {
     <Routes basename="/nadurata-portfolio">
       <Route path ="/" element={<Home />} />
     </Routes>
-    <div></div>
     </>
   );
 }
