@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/WayneRepHub/nadurata-portfolio/static/css/main.1cb7ad1e.css",
-    "main.js": "/WayneRepHub/nadurata-portfolio/static/js/main.1993bb3a.js",
-    "static/media/profile-img.png": "/WayneRepHub/nadurata-portfolio/static/media/profile-img.9d5e772af97da22d1741.png",
-    "static/media/project3.jpg": "/WayneRepHub/nadurata-portfolio/static/media/project3.e630142181377f9dc9c8.jpg",
-    "static/media/project1.jpg": "/WayneRepHub/nadurata-portfolio/static/media/project1.a78969dde1f50f6dc599.jpg",
-    "static/media/project2.jpg": "/WayneRepHub/nadurata-portfolio/static/media/project2.2bdedaee27ff87d03b58.jpg",
-    "static/media/project4.jpg": "/WayneRepHub/nadurata-portfolio/static/media/project4.04c2552f7a9ae72cab00.jpg",
-    "static/media/hero-img.jpg": "/WayneRepHub/nadurata-portfolio/static/media/hero-img.bf736cc0a6b3d437ac00.jpg",
-    "static/media/resume.pdf": "/WayneRepHub/nadurata-portfolio/static/media/resume.7e568682cd5e9fedfa40.pdf",
-    "static/media/abt-img.jpg": "/WayneRepHub/nadurata-portfolio/static/media/abt-img.6dcb9c1a450952116e25.jpg",
-    "index.html": "/WayneRepHub/nadurata-portfolio/index.html",
-    "main.1cb7ad1e.css.map": "/WayneRepHub/nadurata-portfolio/static/css/main.1cb7ad1e.css.map",
-    "main.1993bb3a.js.map": "/WayneRepHub/nadurata-portfolio/static/js/main.1993bb3a.js.map"
+    "main.css": "/nadurata-portfolio/static/css/main.1cb7ad1e.css",
+    "main.js": "/nadurata-portfolio/static/js/main.63398349.js",
+    "static/media/profile-img.png": "/nadurata-portfolio/static/media/profile-img.9d5e772af97da22d1741.png",
+    "static/media/project3.jpg": "/nadurata-portfolio/static/media/project3.e630142181377f9dc9c8.jpg",
+    "static/media/project1.jpg": "/nadurata-portfolio/static/media/project1.a78969dde1f50f6dc599.jpg",
+    "static/media/project2.jpg": "/nadurata-portfolio/static/media/project2.2bdedaee27ff87d03b58.jpg",
+    "static/media/project4.jpg": "/nadurata-portfolio/static/media/project4.04c2552f7a9ae72cab00.jpg",
+    "static/media/hero-img.jpg": "/nadurata-portfolio/static/media/hero-img.bf736cc0a6b3d437ac00.jpg",
+    "static/media/resume.pdf": "/nadurata-portfolio/static/media/resume.7e568682cd5e9fedfa40.pdf",
+    "static/media/abt-img.jpg": "/nadurata-portfolio/static/media/abt-img.6dcb9c1a450952116e25.jpg",
+    "index.html": "/nadurata-portfolio/index.html",
+    "main.1cb7ad1e.css.map": "/nadurata-portfolio/static/css/main.1cb7ad1e.css.map",
+    "main.63398349.js.map": "/nadurata-portfolio/static/js/main.63398349.js.map"
   },
   "entrypoints": [
     "static/css/main.1cb7ad1e.css",
-    "static/js/main.1993bb3a.js"
+    "static/js/main.63398349.js"
   ]
 }
