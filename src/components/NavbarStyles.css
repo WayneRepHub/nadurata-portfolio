@@ -43,6 +43,11 @@
     gap: 0.8rem;
 }
 
+.logo h1 {
+    font-size: 2rem;
+    align-content: center;
+}
+
 @media screen and (max-width:1040px) {
     .nav-menu {
         flex-direction: column;
@@ -68,6 +73,10 @@
 
     .nav-menu li a {
         font-size: 1rem 0;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
     }
 
     .hamburger {
