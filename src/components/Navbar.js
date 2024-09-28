@@ -4,6 +4,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import Resume from "../assets/resume.pdf"
 
+import Logo from "../assets/logo.png"
+
 const Navbar = ({ home, about, projects, contact }) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -30,7 +32,10 @@ const Navbar = ({ home, about, projects, contact }) => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <h1>Wayne Nadurata: Portfolio</h1>
+      <div className="logo">
+        <img className="logo-img" src={Logo} alt="Logo" />
+        <h1>Wayne Nadurata: Portfolio</h1>
+      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li style={{ size: "1rem" }}>
           <a href={Resume} download className="btn-light">Download Resume</a>
