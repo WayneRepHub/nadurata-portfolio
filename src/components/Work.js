@@ -11,7 +11,7 @@ const Work = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1700,
       once: false,
     });
   }, []);

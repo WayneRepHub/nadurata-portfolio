@@ -13,7 +13,7 @@ const AboutContent = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 2000,
+            duration: 1700,
             once: false,
         });
     }, []);

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 export const Form = () => {
   const form = useRef();
-  const [successMessage, setSuccessMessage] = useState(false); // Manage success message state
+  const [successMessage, setSuccessMessage] = useState(false); 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +17,7 @@ export const Form = () => {
       })
       .then(
         () => {
-          setSuccessMessage(true); // Show success message
+          setSuccessMessage(true); 
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -27,7 +27,7 @@ export const Form = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1700,
       once: false,
     });
   }, []);
