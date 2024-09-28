@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-    <Routes>
+    <Routes basename="/nadurata-portfolio">
       <Route path ="/" element={<Home />} />
     </Routes>
     </>
