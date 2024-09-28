@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nadurata-portfolio/static/css/main.b44d70c1.css",
-    "main.js": "/nadurata-portfolio/static/js/main.febbd6c1.js",
+    "main.js": "/nadurata-portfolio/static/js/main.bd977c32.js",
     "static/media/profile-img.png": "/nadurata-portfolio/static/media/profile-img.9d5e772af97da22d1741.png",
     "static/media/project3.jpg": "/nadurata-portfolio/static/media/project3.e630142181377f9dc9c8.jpg",
     "static/media/project1.jpg": "/nadurata-portfolio/static/media/project1.a78969dde1f50f6dc599.jpg",
@@ -12,10 +12,10 @@
     "static/media/abt-img.jpg": "/nadurata-portfolio/static/media/abt-img.6dcb9c1a450952116e25.jpg",
     "index.html": "/nadurata-portfolio/index.html",
     "main.b44d70c1.css.map": "/nadurata-portfolio/static/css/main.b44d70c1.css.map",
-    "main.febbd6c1.js.map": "/nadurata-portfolio/static/js/main.febbd6c1.js.map"
+    "main.bd977c32.js.map": "/nadurata-portfolio/static/js/main.bd977c32.js.map"
   },
   "entrypoints": [
     "static/css/main.b44d70c1.css",
-    "static/js/main.febbd6c1.js"
+    "static/js/main.bd977c32.js"
   ]
 }
