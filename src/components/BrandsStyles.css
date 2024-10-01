@@ -18,10 +18,16 @@
 
 @media (max-width: 768px) {
     .brand-section {
-        justify-content: center; 
+        justify-content: center;
+        gap: 1.5rem; 
+        padding: 1rem;
     }
 
     .brand-card {
         margin: 0.5rem;
+    }
+
+    .brand-image {
+        height: 3vh;
     }
 }

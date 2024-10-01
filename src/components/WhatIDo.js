@@ -46,7 +46,7 @@ const WhatIDo = () => {
                     </div>
                 </div>
             </div>
-            <div className="button-container" data-aos="fade-down">
+            <div className="button-container" data-aos="fade-right">
                 {WhatIDoData.map((service, index) => (
                     <WhatIDoCard
                         key={index}
