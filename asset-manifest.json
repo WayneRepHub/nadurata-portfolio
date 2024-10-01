@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/nadurata-portfolio/static/css/main.abe5b7d9.css",
-    "main.js": "/nadurata-portfolio/static/js/main.bb6fd23d.js",
+    "main.css": "/nadurata-portfolio/static/css/main.11bde912.css",
+    "main.js": "/nadurata-portfolio/static/js/main.7992bc84.js",
+    "static/media/frontend-img.jpg": "/nadurata-portfolio/static/media/frontend-img.4742cf7caf79e7995f63.jpg",
+    "static/media/mobile-dev-img.jpg": "/nadurata-portfolio/static/media/mobile-dev-img.b177e0f18df2b78f3b85.jpg",
     "static/media/profile-img.png": "/nadurata-portfolio/static/media/profile-img.9d5e772af97da22d1741.png",
     "static/media/project3.jpg": "/nadurata-portfolio/static/media/project3.e630142181377f9dc9c8.jpg",
     "static/media/project1.jpg": "/nadurata-portfolio/static/media/project1.a78969dde1f50f6dc599.jpg",
     "static/media/project2.jpg": "/nadurata-portfolio/static/media/project2.2bdedaee27ff87d03b58.jpg",
     "static/media/project4.jpg": "/nadurata-portfolio/static/media/project4.b8f95e934d57191ff767.jpg",
+    "static/media/dev-img.jpg": "/nadurata-portfolio/static/media/dev-img.eb80a2c5a72f537d9327.jpg",
+    "static/media/data-analytics-img.jpg": "/nadurata-portfolio/static/media/data-analytics-img.998515bd68e837e05dde.jpg",
     "static/media/hero-img.jpg": "/nadurata-portfolio/static/media/hero-img.bf736cc0a6b3d437ac00.jpg",
+    "static/media/grad-img.jpg": "/nadurata-portfolio/static/media/grad-img.904e41421eeb4e87fb4e.jpg",
     "static/media/resume.pdf": "/nadurata-portfolio/static/media/resume.7e568682cd5e9fedfa40.pdf",
     "static/media/abt-img.jpg": "/nadurata-portfolio/static/media/abt-img.6dcb9c1a450952116e25.jpg",
     "index.html": "/nadurata-portfolio/index.html",
-    "main.abe5b7d9.css.map": "/nadurata-portfolio/static/css/main.abe5b7d9.css.map",
-    "main.bb6fd23d.js.map": "/nadurata-portfolio/static/js/main.bb6fd23d.js.map"
+    "main.11bde912.css.map": "/nadurata-portfolio/static/css/main.11bde912.css.map",
+    "main.7992bc84.js.map": "/nadurata-portfolio/static/js/main.7992bc84.js.map"
   },
   "entrypoints": [
-    "static/css/main.abe5b7d9.css",
-    "static/js/main.bb6fd23d.js"
+    "static/css/main.11bde912.css",
+    "static/js/main.7992bc84.js"
   ]
 }
