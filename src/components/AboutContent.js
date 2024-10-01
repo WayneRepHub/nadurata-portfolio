@@ -11,8 +11,8 @@ const AboutContent = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1700,
-            once: false,
+            duration: 1500,
+            once: true,
         });
     }, []);
 
@@ -36,7 +36,7 @@ const AboutContent = () => {
                 </div>
             </div>
 
-            <div className="about my-skills" data-aos="fade-left">
+            <div className="about my-skills" data-aos="fade-right">
                 <div className="left">
                     <div className="img-container">
                         <img src={Grad} className="img" alt="Educational Background" />

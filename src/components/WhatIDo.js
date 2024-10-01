@@ -11,8 +11,8 @@ const WhatIDo = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1700,
-            once: false,
+            duration: 1500,
+            once: true,
         });
     }, []);
 

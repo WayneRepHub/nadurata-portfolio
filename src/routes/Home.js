@@ -7,6 +7,7 @@ import WhatIDo from "../components/WhatIDo";
 import Work from "../components/Work";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
+import Brands from "../components/Brands";
 
 
 const Home = () => {
@@ -28,6 +29,11 @@ const Home = () => {
       {/* Home */}
       <section ref={homeRef} className="home-section">
         <Heroimg projectsRef={projectsRef} contactRef={contactRef} />
+      </section>
+
+      {/* Home */}
+      <section className="brand-section">
+        <Brands />
       </section>
 
       {/* About */}
