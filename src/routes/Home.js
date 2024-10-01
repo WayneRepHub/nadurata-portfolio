@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Heroimg from "../components/Heroimg";
 import HeroImg2 from "../components/HeroImg2";
 import AboutContent from "../components/AboutContent";
+import WhatIDo from "../components/WhatIDo";
 import Work from "../components/Work";
 import Form from "../components/Form";
 import Footer from "../components/Footer";
@@ -11,6 +12,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
+  const whatidoRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
@@ -32,6 +34,11 @@ const Home = () => {
       <section ref={aboutRef} className="about-section">
         <HeroImg2 heading="ABOUT" text="What you need to know about me." />
         <AboutContent />
+      </section>
+
+      {/* What I Do */}
+      <section ref={whatidoRef} className="what-i-do-section">
+        <WhatIDo />
       </section>
 
       {/* Projects */}

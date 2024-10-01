@@ -1,0 +1,119 @@
+.what-i-do-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.what-i-do-container {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.what-i-do-section .img-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.what-i-do-section .img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.2s linear;
+    opacity: 0;
+
+}
+
+.what-i-do-section .img.visible {
+    opacity: 1;
+}
+
+.what-i-do-section .overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 2;
+    padding: 10px;
+}
+
+.what-i-do-section h1 {
+    font-size: 2rem;
+    padding: 0.5rem 0 2rem;
+}
+
+.what-i-do-section .description {
+    margin: 1rem 0;
+}
+
+.what-i-do-section .button-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.what-i-do-section .btn-light {
+    color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1 1 auto;
+    margin: 5px;
+}
+
+.btn-light.active {
+    background-color: rgb(45, 66, 134);
+    color: white;
+}
+
+@media screen and (max-width: 740px) {
+    .what-i-do-section .btn-light {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .what-i-do-section .overlay-text {
+        top: 50%;
+    }
+
+    .button-container {
+        justify-content: center;
+        margin: auto;
+        width: 20rem;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .what-i-do-section .img-container, .what-i-do-section .mask{
+        height: auto;
+    }
+
+    .what-i-do-card {
+        margin: 5px;
+        flex: 1 1 30%;
+    }
+
+    .what-i-do-section h2 {
+        font-size: 2rem;
+        padding: 0.3rem 0;
+    }
+
+    .what-i-do-section p {
+        width: 20rem;
+    }
+}

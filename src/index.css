@@ -44,6 +44,7 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {

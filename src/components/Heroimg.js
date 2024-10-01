@@ -28,8 +28,8 @@ const Heroimg = ({ projectsRef, contactRef }) => {
         <h1>
           <ReactTyped
             strings={["Software Developer", "Front-End Developer", "Data Analyst", "Computer Scientist"]}
-            typeSpeed={25}
-            backSpeed={15}
+            typeSpeed={40}
+            backSpeed={30}
             loop
           />
         </h1>
