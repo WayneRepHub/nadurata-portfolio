@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nadurata-portfolio/static/css/main.11bde912.css",
-    "main.js": "/nadurata-portfolio/static/js/main.7992bc84.js",
+    "main.css": "/nadurata-portfolio/static/css/main.9587d7b2.css",
+    "main.js": "/nadurata-portfolio/static/js/main.f9cbf3e5.js",
     "static/media/frontend-img.jpg": "/nadurata-portfolio/static/media/frontend-img.4742cf7caf79e7995f63.jpg",
     "static/media/mobile-dev-img.jpg": "/nadurata-portfolio/static/media/mobile-dev-img.b177e0f18df2b78f3b85.jpg",
     "static/media/profile-img.png": "/nadurata-portfolio/static/media/profile-img.9d5e772af97da22d1741.png",
@@ -15,12 +15,15 @@
     "static/media/grad-img.jpg": "/nadurata-portfolio/static/media/grad-img.904e41421eeb4e87fb4e.jpg",
     "static/media/resume.pdf": "/nadurata-portfolio/static/media/resume.7e568682cd5e9fedfa40.pdf",
     "static/media/abt-img.jpg": "/nadurata-portfolio/static/media/abt-img.6dcb9c1a450952116e25.jpg",
+    "static/media/github.png": "/nadurata-portfolio/static/media/github.6149aa5ccbc036755594.png",
+    "static/media/linkedin.png": "/nadurata-portfolio/static/media/linkedin.34ac71a0fa3db920953b.png",
+    "static/media/upwork.png": "/nadurata-portfolio/static/media/upwork.c883c15fff44add6c779.png",
     "index.html": "/nadurata-portfolio/index.html",
-    "main.11bde912.css.map": "/nadurata-portfolio/static/css/main.11bde912.css.map",
-    "main.7992bc84.js.map": "/nadurata-portfolio/static/js/main.7992bc84.js.map"
+    "main.9587d7b2.css.map": "/nadurata-portfolio/static/css/main.9587d7b2.css.map",
+    "main.f9cbf3e5.js.map": "/nadurata-portfolio/static/js/main.f9cbf3e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.11bde912.css",
-    "static/js/main.7992bc84.js"
+    "static/css/main.9587d7b2.css",
+    "static/js/main.f9cbf3e5.js"
   ]
 }
